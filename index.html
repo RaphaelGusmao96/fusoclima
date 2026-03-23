@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<html lang="pt-BR" data-theme="aurora" data-mode="auto">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Fuso Hor&aacute;rio Online | Conversor de Hor&aacute;rio e Clima em Tempo Real</title>
+  <meta
+    name="description"
+    content="Compare fusos hor&aacute;rios entre cidades, descubra a diferen&ccedil;a de horas e consulte o clima atual com contexto pr&aacute;tico para viagens, reuni&otilde;es e planejamento internacional."
+  />
+  <meta
+    name="keywords"
+    content="fuso horario, conversor de fuso horario, diferenca de horario, clima em tempo real, horario mundial, horario entre paises, que horas sao em outra cidade"
+  />
+  <meta name="author" content="Fuso Hor&aacute;rio Online" />
+  <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
+  <link rel="canonical" href="https://fusohorarioeclima.vercel.app/" />
+  <meta name="google-site-verification" content="google8b57de95a74a641a" />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://fusohorarioeclima.vercel.app/" />
+  <meta property="og:title" content="Fuso Hor&aacute;rio Online | Conversor e Clima" />
+  <meta
+    property="og:description"
+    content="Ferramenta gratuita para comparar hor&aacute;rios entre cidades e entender impacto em viagens, trabalho remoto e agenda internacional."
+  />
+  <meta property="og:image" content="https://fusohorarioeclima.vercel.app/favicon.png" />
+  <meta property="og:image:width" content="512" />
+  <meta property="og:image:height" content="512" />
+  <meta property="og:locale" content="pt_BR" />
+  <meta property="og:site_name" content="Fuso Hor&aacute;rio Online" />
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content="Fuso Hor&aacute;rio Online | Conversor e Clima" />
+  <meta
+    name="twitter:description"
+    content="Consulte diferen&ccedil;as de hor&aacute;rio, clima atual e orienta&ccedil;&otilde;es para viagens e reuni&otilde;es internacionais."
+  />
+  <meta name="twitter:image" content="https://fusohorarioeclima.vercel.app/favicon.png" />
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    "name": "Fuso Horario Online",
+    "url": "https://fusohorarioeclima.vercel.app/",
+    "inLanguage": "pt-BR",
+    "description": "Site com conversor de fuso horario, explicacoes praticas sobre diferenca de horas e consulta de clima atual."
+  }
+  </script>
+  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4090822520914978" crossorigin="anonymous"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Poppins:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet" />
+  <link rel="icon" type="image/png" href="favicon.png" />
+  <link rel="apple-touch-icon" href="favicon.png" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div id="bg-base" class="bg-layer bg-base" aria-hidden="true"></div>
+  <div id="bg-stars" class="bg-layer bg-stars" aria-hidden="true"></div>
+  <div id="bg-rain" class="bg-layer bg-rain" aria-hidden="true">
+    <div class="rain-drop" style="--i:0"></div>
+    <div class="rain-drop" style="--i:1"></div>
+    <div class="rain-drop" style="--i:2"></div>
+    <div class="rain-drop" style="--i:3"></div>
+    <div class="rain-drop" style="--i:4"></div>
+    <div class="rain-drop" style="--i:5"></div>
+    <div class="rain-drop" style="--i:6"></div>
+    <div class="rain-drop" style="--i:7"></div>
+    <div class="rain-drop" style="--i:8"></div>
+    <div class="rain-drop" style="--i:9"></div>
+    <div class="rain-drop" style="--i:10"></div>
+    <div class="rain-drop" style="--i:11"></div>
+    <div class="rain-drop" style="--i:12"></div>
+    <div class="rain-drop" style="--i:13"></div>
+    <div class="rain-drop" style="--i:14"></div>
+    <div class="rain-drop" style="--i:15"></div>
+    <div class="rain-drop" style="--i:16"></div>
+    <div class="rain-drop" style="--i:17"></div>
+    <div class="rain-drop" style="--i:18"></div>
+    <div class="rain-drop" style="--i:19"></div>
+    <div class="rain-drop" style="--i:20"></div>
+    <div class="rain-drop" style="--i:21"></div>
+    <div class="rain-drop" style="--i:22"></div>
+    <div class="rain-drop" style="--i:23"></div>
+    <div class="rain-drop" style="--i:24"></div>
+    <div class="rain-drop" style="--i:25"></div>
+    <div class="rain-drop" style="--i:26"></div>
+    <div class="rain-drop" style="--i:27"></div>
+    <div class="rain-drop" style="--i:28"></div>
+    <div class="rain-drop" style="--i:29"></div>
+  </div>
+
+  <div class="app-container">
+    <nav class="site-nav glass-card" aria-label="Navegacao principal">
+      <a href="/" class="site-nav__brand">Fuso Hor&aacute;rio Online</a>
+      <div class="site-nav__links">
+        <a href="/guia.html">Guia</a>
+        <a href="/faq.html">FAQ</a>
+        <a href="/sobre.html">Sobre</a>
+        <a href="/privacidade.html">Privacidade</a>
+        <a href="/termos.html">Termos</a>
+        <a href="/contato.html">Contato</a>
+      </div>
+    </nav>
+
+    <header class="app-header" role="banner">
+      <div class="header-left">
+        <h1 class="header-title">FUSO HOR&Aacute;RIO</h1>
+        <p class="header-subtitle">CONVERSOR, DIFEREN&Ccedil;A DE HORAS E CLIMA</p>
+      </div>
+      <div class="header-right">
+        <div class="status-chip" id="statusChip" aria-live="polite">
+          <span class="status-dot"></span>
+          <span id="statusText">Atualizado agora</span>
+        </div>
+        <button class="icon-btn theme-toggle-btn" id="themeToggle" aria-label="Alternar tema de cores" title="Alternar tema">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="5"/><path d="M12 1v2M12 21v2M4.22 4.22l1.42 1.42M18.36 18.36l1.42 1.42M1 12h2M21 12h2M4.22 19.78l1.42-1.42M18.36 5.64l1.42-1.42"/></svg>
+        </button>
+        <div class="mode-toggle" role="radiogroup" aria-label="Modo de iluminacao">
+          <button class="mode-btn active" data-mode="auto" aria-label="Modo automatico" title="Auto">Auto</button>
+          <button class="mode-btn" data-mode="day" aria-label="Modo dia" title="Dia">Dia</button>
+          <button class="mode-btn" data-mode="night" aria-label="Modo noite" title="Noite">Noite</button>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <section class="converter-section anim-entry" aria-label="Conversor de fuso horario">
+        <h2 class="section-title section-title--hero">Conversor de Fuso</h2>
+        <div class="converter-grid">
+          <div class="converter-panel glass-card converter-panel--hero">
+            <label class="converter-label" for="converterOriginInput">Origem</label>
+            <div class="converter-city-wrap">
+              <input type="text" id="converterOriginInput" class="converter-city-input glass-input" placeholder="Buscar cidade..." autocomplete="off" aria-label="Cidade de origem" aria-autocomplete="list" aria-controls="autocompleteOrigin" />
+              <div class="autocomplete-dropdown" id="autocompleteOrigin" role="listbox" aria-label="Sugestoes de cidade de origem"></div>
+            </div>
+            <div class="converter-time-row">
+              <div class="time-mode-toggle" role="radiogroup" aria-label="Modo de horario de origem">
+                <button class="time-mode-btn active" data-time-mode="now" aria-label="Usar horario atual">Agora</button>
+                <button class="time-mode-btn" data-time-mode="custom" aria-label="Escolher horario">Escolher</button>
+              </div>
+              <input type="time" id="originTimeInput" class="time-input glass-input" value="14:00" disabled aria-label="Horario de origem" />
+            </div>
+            <div class="converter-display converter-display--hero">
+              <span class="converter-display__time converter-display__time--hero" id="originDisplayTime">14:00</span>
+              <span class="converter-display__tz" id="originDisplayTz">BRT (UTC-3)</span>
+            </div>
+          </div>
+
+          <div class="swap-wrap">
+            <button class="swap-btn swap-btn--hero" id="swapBtn" aria-label="Inverter origem e destino" title="Inverter">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M7 16l-4-4 4-4"/><path d="M3 12h18"/><path d="M17 8l4 4-4 4"/></svg>
+            </button>
+          </div>
+
+          <div class="converter-panel glass-card converter-panel--hero">
+            <label class="converter-label" for="converterDestInput">Destino</label>
+            <div class="converter-city-wrap">
+              <input type="text" id="converterDestInput" class="converter-city-input glass-input" placeholder="Buscar cidade..." autocomplete="off" aria-label="Cidade de destino" aria-autocomplete="list" aria-controls="autocompleteDest" />
+              <div class="autocomplete-dropdown" id="autocompleteDest" role="listbox" aria-label="Sugestoes de cidade de destino"></div>
+            </div>
+            <div class="converter-time-row">
+              <span class="converter-diff-badge converter-diff-badge--hero" id="diffBadge">+12h</span>
+            </div>
+            <div class="converter-display converter-display--hero">
+              <span class="converter-display__time converter-display__time--hero" id="destDisplayTime">02:00</span>
+              <span class="converter-display__tz" id="destDisplayTz">JST (UTC+9)</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="timeline-section glass-card anim-entry anim-delay-1">
+          <div class="timeline-header">
+            <span class="timeline-title">Linha do Tempo</span>
+            <span class="timeline-desc" id="timelineDesc">Se em <strong>Sao Paulo</strong> for <strong>14:00</strong>, em <strong>Tokyo</strong> sera <strong>02:00 (+1 dia)</strong></span>
+          </div>
+          <div class="timeline-slider-wrap">
+            <label for="timelineSlider" class="sr-only">Selecionar hora (0-23)</label>
+            <input type="range" id="timelineSlider" class="timeline-slider" min="0" max="23" value="14" step="1" aria-label="Selecionar horario na linha do tempo" aria-valuemin="0" aria-valuemax="23" aria-valuenow="14" />
+            <div class="timeline-ticks" id="timelineTicks" aria-hidden="true"></div>
+          </div>
+          <div class="timeline-labels">
+            <span>00:00</span>
+            <span>06:00</span>
+            <span>12:00</span>
+            <span>18:00</span>
+            <span>23:00</span>
+          </div>
+        </div>
+      </section>
+
+      <section class="weather-section" aria-label="Informacoes de clima">
+        <h2 class="section-title">Clima nas Cidades</h2>
+        <div class="weather-grid">
+          <article class="weather-card weather-card--compact glass-card anim-entry anim-delay-2" id="weatherOrigin" aria-label="Clima na cidade de origem">
+            <div class="weather-card__header">
+              <div class="weather-card__city-wrap">
+                <span class="weather-card__label">ORIGEM</span>
+                <h2 class="weather-card__city" id="originCity">Sao Paulo</h2>
+              </div>
+              <span class="weather-card__now-badge">AGORA</span>
+            </div>
+            <div class="weather-card__main">
+              <div class="weather-card__temp-wrap">
+                <span class="weather-card__temp" id="originTemp">27</span>
+                <span class="weather-card__deg">&deg;</span>
+              </div>
+              <div class="weather-card__icon" id="originIcon" aria-hidden="true"></div>
+            </div>
+            <div class="weather-card__condition" id="originCondition">Parcialmente nublado</div>
+            <div class="weather-card__details">
+              <div class="detail-item">
+                <svg class="detail-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 14.76V3.5a2.5 2.5 0 0 0-5 0v11.26a4.5 4.5 0 1 0 5 0z"/></svg>
+                <div>
+                  <span class="detail-label">Sensacao</span>
+                  <span class="detail-value" id="originFeels">29&deg;</span>
+                </div>
+              </div>
+              <div class="detail-item">
+                <svg class="detail-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2.69l5.66 5.66a8 8 0 1 1-11.31 0z"/></svg>
+                <div>
+                  <span class="detail-label">Umidade</span>
+                  <span class="detail-value" id="originHumidity">65%</span>
+                </div>
+              </div>
+              <div class="detail-item">
+                <svg class="detail-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9.59 4.59A2 2 0 1 1 11 8H2m10.59 11.41A2 2 0 1 0 14 16H2m15.73-8.27A2.5 2.5 0 1 1 19.5 12H2"/></svg>
+                <div>
+                  <span class="detail-label">Vento</span>
+                  <span class="detail-value" id="originWind">12 km/h</span>
+                </div>
+              </div>
+            </div>
+            <div class="weather-card__forecast">
+              <div class="forecast-mini glass-card-inner" id="originToday">
+                <span class="forecast-mini__label">HOJE</span>
+                <div class="forecast-mini__temps">
+                  <span class="forecast-mini__min">
+                    <svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><path d="M12 5v14M5 12l7 7 7-7"/></svg>
+                    <span id="originTodayMin">22&deg;</span>
+                  </span>
+                  <span class="forecast-mini__max">
+                    <svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><path d="M12 19V5M5 12l7-7 7 7"/></svg>
+                    <span id="originTodayMax">30&deg;</span>
+                  </span>
+                </div>
+              </div>
+              <div class="forecast-mini glass-card-inner" id="originTomorrow">
+                <span class="forecast-mini__label">AMANHA</span>
+                <div class="forecast-mini__temps">
+                  <span class="forecast-mini__min">
+                    <svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><path d="M12 5v14M5 12l7 7 7-7"/></svg>
+                    <span id="originTomorrowMin">20&deg;</span>
+                  </span>
+                  <span class="forecast-mini__max">
+                    <svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><path d="M12 19V5M5 12l7-7 7 7"/></svg>
+                    <span id="originTomorrowMax">28&deg;</span>
+                  </span>
+                </div>
+              </div>
+            </div>
+          </article>
+
+          <article class="weather-card weather-card--compact glass-card anim-entry anim-delay-3" id="weatherDest" aria-label="Clima na cidade de destino">
+            <div class="weather-card__header">
+              <div class="weather-card__city-wrap">
+                <span class="weather-card__label">DESTINO</span>
+                <h2 class="weather-card__city" id="destCity">Tokyo</h2>
+              </div>
+              <span class="weather-card__now-badge">AGORA</span>
+            </div>
+            <div class="weather-card__main">
+              <div class="weather-card__temp-wrap">
+                <span class="weather-card__temp" id="destTemp">18</span>
+                <span class="weather-card__deg">&deg;</span>
+              </div>
+              <div class="weather-card__icon" id="destIcon" aria-hidden="true"></div>
+            </div>
+            <div class="weather-card__condition" id="destCondition">Ceu limpo</div>
+            <div class="weather-card__details">
+              <div class="detail-item">
+                <svg class="detail-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 14.76V3.5a2.5 2.5 0 0 0-5 0v11.26a4.5 4.5 0 1 0 5 0z"/></svg>
+                <div>
+                  <span class="detail-label">Sensacao</span>
+                  <span class="detail-value" id="destFeels">16&deg;</span>
+                </div>
+              </div>
+              <div class="detail-item">
+                <svg class="detail-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2.69l5.66 5.66a8 8 0 1 1-11.31 0z"/></svg>
+                <div>
+                  <span class="detail-label">Umidade</span>
+                  <span class="detail-value" id="destHumidity">45%</span>
+                </div>
+              </div>
+              <div class="detail-item">
+                <svg class="detail-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9.59 4.59A2 2 0 1 1 11 8H2m10.59 11.41A2 2 0 1 0 14 16H2m15.73-8.27A2.5 2.5 0 1 1 19.5 12H2"/></svg>
+                <div>
+                  <span class="detail-label">Vento</span>
+                  <span class="detail-value" id="destWind">8 km/h</span>
+                </div>
+              </div>
+            </div>
+            <div class="weather-card__forecast">
+              <div class="forecast-mini glass-card-inner" id="destToday">
+                <span class="forecast-mini__label">HOJE</span>
+                <div class="forecast-mini__temps">
+                  <span class="forecast-mini__min">
+                    <svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><path d="M12 5v14M5 12l7 7 7-7"/></svg>
+                    <span id="destTodayMin">14&deg;</span>
+                  </span>
+                  <span class="forecast-mini__max">
+                    <svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><path d="M12 19V5M5 12l7-7 7 7"/></svg>
+                    <span id="destTodayMax">20&deg;</span>
+                  </span>
+                </div>
+              </div>
+              <div class="forecast-mini glass-card-inner" id="destTomorrow">
+                <span class="forecast-mini__label">AMANHA</span>
+                <div class="forecast-mini__temps">
+                  <span class="forecast-mini__min">
+                    <svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><path d="M12 5v14M5 12l7 7 7-7"/></svg>
+                    <span id="destTomorrowMin">13&deg;</span>
+                  </span>
+                  <span class="forecast-mini__max">
+                    <svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><path d="M12 19V5M5 12l7-7 7 7"/></svg>
+                    <span id="destTomorrowMax">19&deg;</span>
+                  </span>
+                </div>
+              </div>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="share-section anim-entry anim-delay-3" aria-label="Compartilhar">
+        <button class="share-btn glass-card" id="copyLinkBtn" aria-label="Copiar link de compartilhamento">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"/><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"/></svg>
+          <span>Copiar Link</span>
+        </button>
+      </section>
+    </main>
+
+    <footer class="app-footer" role="contentinfo">
+      <div class="footer-grid">
+        <div>
+          <p class="footer-title">Fuso Hor&aacute;rio Online</p>
+          <p class="footer-copy">Conversor &amp; clima.</p>
+        </div>
+        <div class="footer-links">
+          <a href="/guia.html">Guia</a>
+          <a href="/faq.html">FAQ</a>
+          <a href="/sobre.html">Sobre</a>
+          <a href="/privacidade.html">Privacidade</a>
+          <a href="/termos.html">Termos</a>
+          <a href="/contato.html">Contato</a>
+        </div>
+      </div>
+    </footer>
+  </div>
+
+  <div class="toast-container" id="toastContainer" aria-live="assertive" aria-atomic="true"></div>
+  <div class="skeleton-overlay" id="skeletonOverlay" aria-hidden="true">
+    <div class="skeleton-card glass-card">
+      <div class="skeleton-line skeleton-line--title"></div>
+      <div class="skeleton-line skeleton-line--big"></div>
+      <div class="skeleton-line skeleton-line--medium"></div>
+      <div class="skeleton-line skeleton-line--small"></div>
+      <div class="skeleton-line skeleton-line--small"></div>
+    </div>
+  </div>
+  <script src="app.js"></script>
+</body>
+</html>
